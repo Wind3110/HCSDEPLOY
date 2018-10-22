@@ -36,7 +36,7 @@
             <div class="form-group col-md-6">
               <label>Chọn dịch vụ <span class="text-danger">*</span></label>
               <ng-multiselect-dropdown [placeholder]="'Chọn dịch vụ'" [data]="serviceNameList" [settings]="dropdownServiceSettings"
-                (onSelect)="onItemSelect($event)" (onSelectAll)="onSelectAll($event)" name="Services" #Services="ngModel"
+                (onSelect)="onItemServiceSelect($event)" (onSelectAll)="onServiceSelectAll($event)" name="Services" #Services="ngModel"
                 [(ngModel)]="bookingService.selectedBooking.Services" required [ngClass]="{'is-invalid':Services.touched  && Services.errors}">
               </ng-multiselect-dropdown>
               <div *ngIf="Services.touched && Services.errors" class="invalid-feedback">

@@ -93,7 +93,7 @@ export class StaffbookingComponent implements OnInit {
   time: Time[];
 
   constructor(private calendar: NgbCalendar, config: NgbDatepickerConfig, private staffService: StaffService,
-    private serviceSevice: ServiceService, private bookingService: BookingService,
+    private serviceSevice: ServiceService, public bookingService: BookingService,
     private tostr: ToastrService, private modalService: NgbModal, private router: Router) {
 
     //Show current day when load booking form

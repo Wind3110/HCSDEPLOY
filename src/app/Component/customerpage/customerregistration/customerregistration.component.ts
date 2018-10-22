@@ -17,7 +17,7 @@ export class CustomerregistrationComponent implements OnInit {
   returnUrl: string;
   customerRegistrationForm: FormGroup;
 
-  constructor(private customerService: CustomerService, private tostr: ToastrService, private router: Router) { }
+  constructor(public customerService: CustomerService, private tostr: ToastrService, private router: Router) { }
 
   ngOnInit() {
     this.resetForm();
