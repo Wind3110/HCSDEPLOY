@@ -91,7 +91,7 @@ export class MemberbookingComponent implements OnInit {
   time: Time[];
 
   constructor(private calendar: NgbCalendar,config: NgbDatepickerConfig, private staffService: StaffService, private serviceSevice: ServiceService,
-    private bookingService: BookingService, private fb: FormBuilder, private customerService: CustomerService,
+    public bookingService: BookingService, private fb: FormBuilder, private customerService: CustomerService,
     private tostr: ToastrService, private datepipe: DatePipe, private modalService: NgbModal, private router: Router,
     private formBuilder: FormBuilder) {
 

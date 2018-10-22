@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
-import { AuthGuard } from './service/AuthService/auth.guard';
+import { AuthGuard } from '../app/Service/AuthService/auth.guard';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ChartComponent } from './Component/chart/chart.component';
