@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { AuthService } from '../../../Service/AuthService/auth.service';
-import { Staff } from '../../../Model/StaffModel/Staff.model';
+import { Staff } from './../../../Model/StaffModel/staff.model';
 import { StaffService } from '../../../Service/StaffService/staff.service';
 import { ToastrService } from 'ngx-toastr';
 import { Md5 } from 'ts-md5';

@@ -3,7 +3,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ToastrModule } from 'ngx-toastr';
-import { AuthGuard } from './service/AuthService/auth.guard';
+import { AuthGuard } from '../app/Service/AuthService/auth.guard';
 
 // Firebase
 import { AngularFireModule } from 'angularfire2';
